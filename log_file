@@ -1,0 +1,89 @@
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 03:24:41
+当前的请求方式：POST
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 03:24:41
+get请求，所有的get参数：array (
+  'route' => 'payment/twocheckout/callback',
+  'utm_nooverride' => '1',
+)
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 03:24:41
+post请求，所有的post参数：array (
+  'middle_initial' => '',
+  'sid' => '102761758',
+  'fixed' => 'Y',
+  'cart_weight' => '0',
+  'key' => '8E6D80EDC07AD4332C9F4D59E1F51648',
+  'state' => 'XX',
+  'last_name' => 'Ou',
+  'email' => '258333309@qq.com',
+  'city' => '中国深圳',
+  'street_address' => '深圳南山',
+  'cart_order_id' => '4',
+  'order_number' => '106010470449',
+  'ip_country' => 'Hong Kong',
+  'country' => 'CHN',
+  'merchant_order_id' => '',
+  'cart_id' => '4',
+  'currency_code' => 'USD',
+  'lang' => 'en',
+  'demo' => 'Y',
+  'invoice_id' => '106010470458',
+  'pay_method' => 'CC',
+  'cart_tangible' => 'N',
+  'total' => '0.01',
+  'phone' => '15019261350 ',
+  'credit_card_processed' => 'Y',
+  'zip' => '518000',
+  'street_address2' => '西丽社区南山智园c3-4',
+  'x_receipt_link_url' => 'http://upload.net/index.php?route=payment/twocheckout/callback',
+  'first_name' => 'Bear',
+  'card_holder_name' => 'Bear Ou',
+)
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 03:24:41 2CheckOut :: order_id: 4
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 03:24:41 2CheckOut :: post_twocheckout_secret: 8E6D80EDC07AD4332C9F4D59E1F51648
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 03:24:41 2CheckOut :: config_twocheckout_secret: 154E1532797D3E95E03F7974C57368FC
+
+
+
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 06:32:03
+当前的请求方式：POST
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 06:32:03
+get请求，所有的get参数：array (
+  'route' => 'payment/twocheckout/callback',
+  'utm_nooverride' => '1',
+)
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 06:32:03
+post请求，所有的post参数：array (
+  'middle_initial' => '',
+  'sid' => '102761758',
+  'fixed' => 'Y',
+  'cart_weight' => '0',
+  'key' => '8E6D80EDC07AD4332C9F4D59E1F51648',
+  'state' => 'XX',
+  'last_name' => 'Ou',
+  'email' => '258333309@qq.com',
+  'city' => '中国深圳',
+  'street_address' => '深圳南山',
+  'cart_order_id' => '13',
+  'order_number' => '106010566899',
+  'ip_country' => 'Hong Kong',
+  'country' => 'CHN',
+  'merchant_order_id' => '',
+  'cart_id' => '13',
+  'currency_code' => 'USD',
+  'lang' => 'en',
+  'demo' => 'Y',
+  'invoice_id' => '106010566908',
+  'pay_method' => 'CC',
+  'cart_tangible' => 'N',
+  'total' => '0.01',
+  'phone' => '15019261350 ',
+  'credit_card_processed' => 'Y',
+  'zip' => '518000',
+  'street_address2' => '这个地址不写可以吗？',
+  'x_receipt_link_url' => 'http://upload.net/index.php?route=payment/twocheckout/callback',
+  'first_name' => 'Bear',
+  'card_holder_name' => 'Bear Ou',
+)
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 06:32:03 2CheckOut :: order_id: 13
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 06:32:03 2CheckOut :: post_twocheckout_secret: 8E6D80EDC07AD4332C9F4D59E1F51648
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 06:32:03 2CheckOut :: config_twocheckout_secret: 7A43855F7983A6D054769E5A2498FB79

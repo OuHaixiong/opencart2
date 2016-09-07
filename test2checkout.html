@@ -1,0 +1,38 @@
+<form method="post" action="https://www.2checkout.com/checkout/purchase" target="tco_lightbox_iframe">
+<!-- <form method="post" action="http://m.com/index.php?route=payment/twocheckout/callback&utm_nooverride=1" target="tco_lightbox_iframe"> -->
+	<input type="hidden" value="102761758" name="sid" /> <!-- account number -->
+	订单总价：
+	<input type="text" value="0.01" name="total" /> <!-- 总价 -->
+	订单id：
+	<input type="text" value="4" name="cart_order_id" /> <!-- 订单id -->
+	<input type="hidden" value="Bear Ou" name="card_holder_name" /> <!-- 卡持有人姓名 -->
+	<input type="hidden" value="深圳南山" name="street_address" /> <!-- 街道地址 -->
+	<input type="hidden" value="" name="street_address2" /> <!-- 街道地址2 -->
+	<input type="hidden" value="中国深圳" name="city" /> <!-- 城市 -->
+	<input type="hidden" value="XX" name="state" /> <!-- 州 -->
+	<input type="hidden" value="518000" name="zip" /> <!-- 邮政编码 -->
+	<input type="hidden" value="China" name="country" /> <!-- 国家 -->
+	<input type="hidden" value="258333309@qq.com" name="email" /> <!-- 用户邮箱（可以是登录的邮箱） -->
+	<input type="hidden" value="15019261350" name="phone" /> <!-- 用户手机 -->
+	<input type="hidden" value="Bear Ou" name="ship_name" /> <!-- 邮寄姓名 -->
+	<input type="hidden" value="深圳南山" name="ship_street_address" /> <!-- 邮寄街道地址1 --> 
+	<input type="hidden" value="" name="ship_street_address2" /> <!-- 邮寄街道地址2 -->
+	<input type="hidden" value="中国深圳" name="ship_city" /> <!-- 邮寄城市 -->
+	<input type="hidden" value="Guangdong" name="ship_state" /> <!-- 邮寄州（省） -->
+	<input type="hidden" value="518000" name="ship_zip" /> <!-- 邮寄邮政编码 -->
+	<input type="hidden" value="China" name="ship_country" /> <!-- 邮寄国家 -->
+	<input type="hidden" value="40,1" name="c_prod_0" /> <!--  -->
+	<input type="hidden" value="iPhone" name="c_name_0" /> <!-- 第一个商品名 -->
+    <input type="hidden" value="iPhone"	name="c_description_0" /> <!-- 第一个商品描述 -->
+    <input type="hidden" value="0.01" name="c_price_0" /> <!-- 第一个商品价格 -->
+    <input type="hidden" value="1" name="id_type" /> <!--  -->
+    <input type="hidden" value="en-gb" name="lang" /> <!--  -->
+    <input type="hidden" value="http://upload.net/index.php?route=payment/twocheckout/callback" name="x_receipt_link_url" /> <!-- 回调函数 --> 
+    <input type="hidden" value="USD" name="currency_code" /> <!-- 货币代码 -->
+    <div class="buttons">
+        <div class="pull-right">
+            <input type="submit" class="btn btn-primary" value="Confirm Order">
+        </div>
+	</div>
+	<input type="hidden" name="tco_use_inline" value="1"> <!--  -->
+</form>
