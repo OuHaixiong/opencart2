@@ -1,3 +1,6 @@
+
+下面是2Checkout回调post过来的数据：
+
 THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 03:24:41
 当前的请求方式：POST
 THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 03:24:41
@@ -44,46 +47,47 @@ THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 03:24:41 2CheckOut :: config_twoche
 
 
 
-THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 06:32:03
-当前的请求方式：POST
-THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 06:32:03
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-08 13:24:51 
+当前的请求方式：POST 
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-08 13:24:51 
 get请求，所有的get参数：array (
   'route' => 'payment/twocheckout/callback',
-  'utm_nooverride' => '1',
-)
-THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 06:32:03
+) 
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-08 13:24:51 
 post请求，所有的post参数：array (
   'middle_initial' => '',
   'sid' => '102761758',
   'fixed' => 'Y',
   'cart_weight' => '0',
-  'key' => '8E6D80EDC07AD4332C9F4D59E1F51648',
+  'key' => '814906F3C5431BA2CE0D050AD1A9EFA7',
   'state' => 'XX',
-  'last_name' => 'Ou',
+  'last_name' => '欧阳海雄',
   'email' => '258333309@qq.com',
-  'city' => '中国深圳',
-  'street_address' => '深圳南山',
-  'cart_order_id' => '13',
-  'order_number' => '106010566899',
+  'city' => '深圳',
+  'street_address' => '深圳南山智园c3栋4楼',
+  'cart_order_id' => '44748',
+  'order_number' => '106011798186',
   'ip_country' => 'Hong Kong',
-  'country' => 'CHN',
+  'country' => 'ARM',
   'merchant_order_id' => '',
-  'cart_id' => '13',
+  'cart_id' => '44748',
   'currency_code' => 'USD',
   'lang' => 'en',
-  'demo' => 'Y',
-  'invoice_id' => '106010566908',
+  'demo' => '',
+  'invoice_id' => '106011798195',
   'pay_method' => 'CC',
   'cart_tangible' => 'N',
   'total' => '0.01',
   'phone' => '15019261350 ',
   'credit_card_processed' => 'Y',
-  'zip' => '518000',
-  'street_address2' => '这个地址不写可以吗？',
-  'x_receipt_link_url' => 'http://upload.net/index.php?route=payment/twocheckout/callback',
-  'first_name' => 'Bear',
-  'card_holder_name' => 'Bear Ou',
-)
-THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 06:32:03 2CheckOut :: order_id: 13
-THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 06:32:03 2CheckOut :: post_twocheckout_secret: 8E6D80EDC07AD4332C9F4D59E1F51648
-THING LOG: IP:203.166.220.2 ,TIME:2016-09-07 06:32:03 2CheckOut :: config_twocheckout_secret: 7A43855F7983A6D054769E5A2498FB79
+  'zip' => '518055',
+  'street_address2' => 'Bear-欧阳海雄',
+  'x_receipt_link_url' => 'http://test.makeblock.com/index.php?route=payment/twocheckout/callback',
+  'first_name' => 'Bear-Ou',
+  'card_holder_name' => 'Bear-Ou 欧阳海雄',
+) 
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-08 13:24:51 2CheckOut :: order_id: 44748 
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-08 13:24:51 2CheckOut :: post_twocheckout_key: 814906F3C5431BA2CE0D050AD1A9EFA7 
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-08 13:24:51 2CheckOut :: twocheckout_key: 814906F3C5431BA2CE0D050AD1A9EFA7 
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-08 13:24:51 2CheckOut :: post_twocheckout_total: 0.01 
+THING LOG: IP:203.166.220.2 ,TIME:2016-09-08 13:24:51 2CheckOut :: order_twocheckout_total: 0.01 
