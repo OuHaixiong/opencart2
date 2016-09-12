@@ -91,3 +91,76 @@ THING LOG: IP:203.166.220.2 ,TIME:2016-09-08 13:24:51 2CheckOut :: post_twocheck
 THING LOG: IP:203.166.220.2 ,TIME:2016-09-08 13:24:51 2CheckOut :: twocheckout_key: 814906F3C5431BA2CE0D050AD1A9EFA7 
 THING LOG: IP:203.166.220.2 ,TIME:2016-09-08 13:24:51 2CheckOut :: post_twocheckout_total: 0.01 
 THING LOG: IP:203.166.220.2 ,TIME:2016-09-08 13:24:51 2CheckOut :: order_twocheckout_total: 0.01 
+
+
+
+下面是支付完成后异步回调post的数据：
+THING LOG: IP:162.221.61.196 ,TIME:2016-09-12 04:23:25 
+下面是异步通知（异步回调）开始： 
+THING LOG: IP:162.221.61.196 ,TIME:2016-09-12 04:23:25 
+当前的请求方式：POST 
+THING LOG: IP:162.221.61.196 ,TIME:2016-09-12 04:23:25 
+get请求，所有的get参数：array (
+  'route' => 'payment/twocheckout/notifications',
+) 
+THING LOG: IP:162.221.61.196 ,TIME:2016-09-12 04:23:25 
+post请求，所有的post参数：array (
+  'message_type' => 'FRAUD_STATUS_CHANGED',
+  'message_description' => 'Order fraud status changed',
+  'timestamp' => '2016-09-12 00:23:21',
+  'message_id' => '1',
+  'vendor_id' => '102761758',
+  'vendor_order_id' => '',
+  'invoice_id' => '106014450561',
+  'recurring' => '0',
+  'invoice_status' => 'approved',
+  'invoice_list_amount' => '0.01',
+  'invoice_usd_amount' => '0.01',
+  'invoice_cust_amount' => '0.01',
+  'auth_exp' => '2016-09-19',
+  'fraud_status' => 'pass',
+  'list_currency' => 'USD',
+  'cust_currency' => 'USD',
+  'payment_type' => 'credit card',
+  'sale_id' => '106014450552',
+  'sale_date_placed' => '2016-09-12 00:15:00',
+  'customer_ip' => '203.166.220.2',
+  'customer_ip_country' => 'Hong Kong',
+  'customer_first_name' => 'Bear-Ou',
+  'customer_last_name' => '欧阳海雄',
+  'customer_name' => 'Bear-Ou 欧阳海雄',
+  'customer_email' => '258333309@qq.com',
+  'customer_phone' => '15019261350',
+  'ship_status' => '',
+  'ship_tracking_number' => '',
+  'ship_name' => '',
+  'ship_street_address' => '',
+  'ship_street_address2' => '',
+  'ship_city' => '',
+  'ship_state' => '',
+  'ship_postal_code' => '',
+  'ship_country' => '',
+  'bill_street_address' => '深圳南山智园c3栋4楼',
+  'bill_street_address2' => 'Bear-欧阳海雄',
+  'bill_city' => '深圳',
+  'bill_state' => 'XX',
+  'bill_postal_code' => '518055',
+  'bill_country' => 'ARM',
+  'item_count' => '1',
+  'item_name_1' => 'Cart purchase:  44749',
+  'item_id_1' => '44749',
+  'item_list_amount_1' => '0.01',
+  'item_usd_amount_1' => '0.01',
+  'item_cust_amount_1' => '0.01',
+  'item_type_1' => 'bill',
+  'item_duration_1' => '',
+  'item_recurrence_1' => '',
+  'item_rec_list_amount_1' => '',
+  'item_rec_status_1' => '',
+  'item_rec_date_next_1' => '',
+  'item_rec_install_billed_1' => '',
+  'md5_hash' => 'C08202F4272F125579FA9AE0B4BB346C',
+  'key_count' => '56',
+) 
+THING LOG: IP:162.221.61.196 ,TIME:2016-09-12 04:23:25 
+这里是异步通知（异步回调）结束。
